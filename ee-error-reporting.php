@@ -25,8 +25,8 @@ if($eeDevMode) {
 		error_log ('PHP Error\n\n
 		[' . $errnum . '] ' . $errstr . '\n\n
 		File: ' . $errfile . '\n\n
-		Line: ' $errline, 
-		1, 
+		Line: ' . $errline, 
+		1,
 		$eeNoticeEmail, 
 		'From: ' . $eeNoticeEmail);
 	}
